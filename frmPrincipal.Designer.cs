@@ -34,6 +34,7 @@
             this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verTareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administrarTareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historialDeTareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.auditoríaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,7 +42,6 @@
             this.lblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblFecha = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.historialDeTareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -85,6 +85,13 @@
             this.administrarTareasToolStripMenuItem.Text = "Administrar Tareas";
             this.administrarTareasToolStripMenuItem.Click += new System.EventHandler(this.administrarTareasToolStripMenuItem_Click);
             // 
+            // historialDeTareasToolStripMenuItem
+            // 
+            this.historialDeTareasToolStripMenuItem.Name = "historialDeTareasToolStripMenuItem";
+            this.historialDeTareasToolStripMenuItem.Size = new System.Drawing.Size(268, 32);
+            this.historialDeTareasToolStripMenuItem.Text = "Historial de Tareas";
+            this.historialDeTareasToolStripMenuItem.Click += new System.EventHandler(this.historialDeTareasToolStripMenuItem_Click);
+            // 
             // administraciónToolStripMenuItem
             // 
             this.administraciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -98,7 +105,7 @@
             // 
             this.usuariosToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(181, 32);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
@@ -106,7 +113,7 @@
             // 
             this.auditoríaToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.auditoríaToolStripMenuItem.Name = "auditoríaToolStripMenuItem";
-            this.auditoríaToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.auditoríaToolStripMenuItem.Size = new System.Drawing.Size(181, 32);
             this.auditoríaToolStripMenuItem.Text = "Auditoría";
             this.auditoríaToolStripMenuItem.Click += new System.EventHandler(this.auditoríaToolStripMenuItem_Click);
             // 
@@ -117,6 +124,7 @@
             // 
             // lblUsuario
             // 
+            this.lblUsuario.BackColor = System.Drawing.SystemColors.Control;
             this.lblUsuario.Font = new System.Drawing.Font("Malgun Gothic", 12F);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(85, 28);
@@ -125,6 +133,7 @@
             // 
             // lblFecha
             // 
+            this.lblFecha.BackColor = System.Drawing.SystemColors.Control;
             this.lblFecha.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(68, 28);
@@ -143,13 +152,6 @@
             this.statusStrip1.Size = new System.Drawing.Size(901, 34);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
-            // 
-            // historialDeTareasToolStripMenuItem
-            // 
-            this.historialDeTareasToolStripMenuItem.Name = "historialDeTareasToolStripMenuItem";
-            this.historialDeTareasToolStripMenuItem.Size = new System.Drawing.Size(268, 32);
-            this.historialDeTareasToolStripMenuItem.Text = "Historial de Tareas";
-            this.historialDeTareasToolStripMenuItem.Click += new System.EventHandler(this.historialDeTareasToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
