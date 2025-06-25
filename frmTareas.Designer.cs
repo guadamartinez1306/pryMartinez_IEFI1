@@ -69,11 +69,11 @@
             this.groupBox1.Controls.Add(this.cmbLugar);
             this.groupBox1.Controls.Add(this.cmbTarea);
             this.groupBox1.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(37, 52);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Location = new System.Drawing.Point(28, 42);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(395, 446);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(296, 362);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Agregar Tareas";
@@ -81,37 +81,40 @@
             // lblLugar
             // 
             this.lblLugar.AutoSize = true;
-            this.lblLugar.Location = new System.Drawing.Point(53, 234);
+            this.lblLugar.Location = new System.Drawing.Point(40, 190);
+            this.lblLugar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLugar.Name = "lblLugar";
-            this.lblLugar.Size = new System.Drawing.Size(67, 28);
+            this.lblLugar.Size = new System.Drawing.Size(55, 21);
             this.lblLugar.TabIndex = 6;
             this.lblLugar.Text = "Lugar:";
             // 
             // lblTarea
             // 
             this.lblTarea.AutoSize = true;
-            this.lblTarea.Location = new System.Drawing.Point(53, 144);
+            this.lblTarea.Location = new System.Drawing.Point(40, 117);
+            this.lblTarea.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTarea.Name = "lblTarea";
-            this.lblTarea.Size = new System.Drawing.Size(65, 28);
+            this.lblTarea.Size = new System.Drawing.Size(54, 21);
             this.lblTarea.TabIndex = 5;
             this.lblTarea.Text = "Tarea:";
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(53, 54);
+            this.lblFecha.Location = new System.Drawing.Point(40, 44);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(68, 28);
+            this.lblFecha.Size = new System.Drawing.Size(56, 21);
             this.lblFecha.TabIndex = 4;
             this.lblFecha.Text = "Fecha:";
             // 
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnAgregar.Location = new System.Drawing.Point(159, 366);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAgregar.Location = new System.Drawing.Point(119, 297);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(195, 46);
+            this.btnAgregar.Size = new System.Drawing.Size(146, 37);
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
@@ -121,49 +124,49 @@
             // 
             this.dtpFecha.CustomFormat = "dd/MM/yyyy";
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(159, 54);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpFecha.Location = new System.Drawing.Point(119, 44);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(193, 34);
+            this.dtpFecha.Size = new System.Drawing.Size(146, 29);
             this.dtpFecha.TabIndex = 2;
             // 
             // cmbLugar
             // 
             this.cmbLugar.FormattingEnabled = true;
-            this.cmbLugar.Location = new System.Drawing.Point(157, 234);
-            this.cmbLugar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmbLugar.Location = new System.Drawing.Point(118, 190);
+            this.cmbLugar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbLugar.Name = "cmbLugar";
-            this.cmbLugar.Size = new System.Drawing.Size(193, 36);
+            this.cmbLugar.Size = new System.Drawing.Size(146, 29);
             this.cmbLugar.TabIndex = 1;
             // 
             // cmbTarea
             // 
             this.cmbTarea.FormattingEnabled = true;
-            this.cmbTarea.Location = new System.Drawing.Point(157, 144);
-            this.cmbTarea.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmbTarea.Location = new System.Drawing.Point(118, 117);
+            this.cmbTarea.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbTarea.Name = "cmbTarea";
-            this.cmbTarea.Size = new System.Drawing.Size(193, 36);
+            this.cmbTarea.Size = new System.Drawing.Size(146, 29);
             this.cmbTarea.TabIndex = 0;
             // 
             // dgvTareas
             // 
             this.dgvTareas.BackgroundColor = System.Drawing.Color.Linen;
             this.dgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTareas.Location = new System.Drawing.Point(44, 47);
-            this.dgvTareas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvTareas.Location = new System.Drawing.Point(33, 38);
+            this.dgvTareas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvTareas.Name = "dgvTareas";
             this.dgvTareas.RowHeadersWidth = 51;
             this.dgvTareas.RowTemplate.Height = 24;
-            this.dgvTareas.Size = new System.Drawing.Size(882, 222);
+            this.dgvTareas.Size = new System.Drawing.Size(662, 180);
             this.dgvTareas.TabIndex = 1;
             // 
             // chkSalario
             // 
             this.chkSalario.AutoSize = true;
-            this.chkSalario.Location = new System.Drawing.Point(372, 107);
-            this.chkSalario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkSalario.Location = new System.Drawing.Point(279, 87);
+            this.chkSalario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkSalario.Name = "chkSalario";
-            this.chkSalario.Size = new System.Drawing.Size(94, 32);
+            this.chkSalario.Size = new System.Drawing.Size(78, 25);
             this.chkSalario.TabIndex = 2;
             this.chkSalario.Text = "Salario";
             this.chkSalario.UseVisualStyleBackColor = true;
@@ -171,10 +174,10 @@
             // chkEstudio
             // 
             this.chkEstudio.AutoSize = true;
-            this.chkEstudio.Location = new System.Drawing.Point(195, 107);
-            this.chkEstudio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkEstudio.Location = new System.Drawing.Point(146, 87);
+            this.chkEstudio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkEstudio.Name = "chkEstudio";
-            this.chkEstudio.Size = new System.Drawing.Size(101, 32);
+            this.chkEstudio.Size = new System.Drawing.Size(83, 25);
             this.chkEstudio.TabIndex = 3;
             this.chkEstudio.Text = "Estudio";
             this.chkEstudio.UseVisualStyleBackColor = true;
@@ -182,10 +185,10 @@
             // chkInsumo
             // 
             this.chkInsumo.AutoSize = true;
-            this.chkInsumo.Location = new System.Drawing.Point(27, 107);
-            this.chkInsumo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkInsumo.Location = new System.Drawing.Point(20, 87);
+            this.chkInsumo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkInsumo.Name = "chkInsumo";
-            this.chkInsumo.Size = new System.Drawing.Size(102, 32);
+            this.chkInsumo.Size = new System.Drawing.Size(82, 25);
             this.chkInsumo.TabIndex = 4;
             this.chkInsumo.Text = "Insumo";
             this.chkInsumo.UseVisualStyleBackColor = true;
@@ -193,10 +196,10 @@
             // chkVacacion
             // 
             this.chkVacacion.AutoSize = true;
-            this.chkVacacion.Location = new System.Drawing.Point(195, 144);
-            this.chkVacacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkVacacion.Location = new System.Drawing.Point(146, 117);
+            this.chkVacacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkVacacion.Name = "chkVacacion";
-            this.chkVacacion.Size = new System.Drawing.Size(114, 32);
+            this.chkVacacion.Size = new System.Drawing.Size(94, 25);
             this.chkVacacion.TabIndex = 5;
             this.chkVacacion.Text = "Vacación";
             this.chkVacacion.UseVisualStyleBackColor = true;
@@ -204,10 +207,10 @@
             // chkRecibo
             // 
             this.chkRecibo.AutoSize = true;
-            this.chkRecibo.Location = new System.Drawing.Point(372, 143);
-            this.chkRecibo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkRecibo.Location = new System.Drawing.Point(279, 116);
+            this.chkRecibo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkRecibo.Name = "chkRecibo";
-            this.chkRecibo.Size = new System.Drawing.Size(95, 32);
+            this.chkRecibo.Size = new System.Drawing.Size(80, 25);
             this.chkRecibo.TabIndex = 6;
             this.chkRecibo.Text = "Recibo";
             this.chkRecibo.UseVisualStyleBackColor = true;
@@ -215,10 +218,10 @@
             // btnGrabar
             // 
             this.btnGrabar.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnGrabar.Location = new System.Drawing.Point(291, 366);
-            this.btnGrabar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGrabar.Location = new System.Drawing.Point(218, 297);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(195, 46);
+            this.btnGrabar.Size = new System.Drawing.Size(146, 37);
             this.btnGrabar.TabIndex = 7;
             this.btnGrabar.Text = "GRABAR";
             this.btnGrabar.UseVisualStyleBackColor = false;
@@ -240,11 +243,11 @@
             this.groupBox2.Controls.Add(this.chkEstudio);
             this.groupBox2.Controls.Add(this.chkVacacion);
             this.groupBox2.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(491, 52);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Location = new System.Drawing.Point(368, 42);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(517, 446);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(388, 362);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Detalle";
@@ -253,9 +256,10 @@
             // lblComentario
             // 
             this.lblComentario.AutoSize = true;
-            this.lblComentario.Location = new System.Drawing.Point(23, 177);
+            this.lblComentario.Location = new System.Drawing.Point(17, 144);
+            this.lblComentario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblComentario.Name = "lblComentario";
-            this.lblComentario.Size = new System.Drawing.Size(123, 28);
+            this.lblComentario.Size = new System.Drawing.Size(100, 21);
             this.lblComentario.TabIndex = 13;
             this.lblComentario.Text = "Comentario:";
             this.lblComentario.Click += new System.EventHandler(this.label4_Click);
@@ -263,28 +267,30 @@
             // lblReclamo
             // 
             this.lblReclamo.AutoSize = true;
-            this.lblReclamo.Location = new System.Drawing.Point(369, 54);
+            this.lblReclamo.Location = new System.Drawing.Point(277, 44);
+            this.lblReclamo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblReclamo.Name = "lblReclamo";
-            this.lblReclamo.Size = new System.Drawing.Size(93, 28);
+            this.lblReclamo.Size = new System.Drawing.Size(77, 21);
             this.lblReclamo.TabIndex = 12;
             this.lblReclamo.Text = "Reclamo:";
             // 
             // lblUniforme
             // 
             this.lblUniforme.AutoSize = true;
-            this.lblUniforme.Location = new System.Drawing.Point(23, 54);
+            this.lblUniforme.Location = new System.Drawing.Point(17, 44);
+            this.lblUniforme.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUniforme.Name = "lblUniforme";
-            this.lblUniforme.Size = new System.Drawing.Size(101, 28);
+            this.lblUniforme.Size = new System.Drawing.Size(82, 21);
             this.lblUniforme.TabIndex = 11;
             this.lblUniforme.Text = "Uniforme:";
             // 
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnCancelar.Location = new System.Drawing.Point(27, 366);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancelar.Location = new System.Drawing.Point(20, 297);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(195, 46);
+            this.btnCancelar.Size = new System.Drawing.Size(146, 37);
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -292,19 +298,20 @@
             // lblLicencia
             // 
             this.lblLicencia.AutoSize = true;
-            this.lblLicencia.Location = new System.Drawing.Point(191, 54);
+            this.lblLicencia.Location = new System.Drawing.Point(143, 44);
+            this.lblLicencia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLicencia.Name = "lblLicencia";
-            this.lblLicencia.Size = new System.Drawing.Size(87, 28);
+            this.lblLicencia.Size = new System.Drawing.Size(72, 21);
             this.lblLicencia.TabIndex = 10;
             this.lblLicencia.Text = "Licencia:";
             // 
             // txtComentario
             // 
-            this.txtComentario.Location = new System.Drawing.Point(27, 215);
-            this.txtComentario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtComentario.Location = new System.Drawing.Point(20, 175);
+            this.txtComentario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtComentario.Multiline = true;
             this.txtComentario.Name = "txtComentario";
-            this.txtComentario.Size = new System.Drawing.Size(460, 121);
+            this.txtComentario.Size = new System.Drawing.Size(346, 99);
             this.txtComentario.TabIndex = 9;
             // 
             // groupBox3
@@ -312,26 +319,26 @@
             this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox3.Controls.Add(this.dgvTareas);
             this.groupBox3.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(37, 524);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Location = new System.Drawing.Point(28, 426);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(971, 299);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(728, 243);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tareas";
             // 
             // frmTareas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(1044, 874);
+            this.BackColor = System.Drawing.Color.Bisque;
+            this.ClientSize = new System.Drawing.Size(783, 609);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmTareas";
             this.Text = "Tareas";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
