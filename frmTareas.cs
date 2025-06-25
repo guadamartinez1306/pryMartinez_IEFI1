@@ -111,5 +111,15 @@ namespace pryMartinez_IEFI
                 return;
             }
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            chkInsumo.Checked = false;
+            chkEstudio.Checked = false;
+            chkVacacion.Checked = false;
+            chkSalario.Checked = false;
+            chkRecibo.Checked = false;
+            txtComentario.Clear();
+        }
     }
 }

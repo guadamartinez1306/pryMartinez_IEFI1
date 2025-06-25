@@ -79,14 +79,14 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.BurlyWood;
+            this.tabPage1.BackColor = System.Drawing.Color.Bisque;
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 37);
+            this.tabPage1.Location = new System.Drawing.Point(4, 30);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage1.Size = new System.Drawing.Size(1092, 708);
+            this.tabPage1.Size = new System.Drawing.Size(1092, 715);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tareas";
             // 
@@ -145,10 +145,10 @@
             // cmbTarea
             // 
             this.cmbTarea.FormattingEnabled = true;
-            this.cmbTarea.ItemHeight = 28;
+            this.cmbTarea.ItemHeight = 21;
             this.cmbTarea.Location = new System.Drawing.Point(268, 190);
             this.cmbTarea.Name = "cmbTarea";
-            this.cmbTarea.Size = new System.Drawing.Size(199, 36);
+            this.cmbTarea.Size = new System.Drawing.Size(199, 29);
             this.cmbTarea.TabIndex = 5;
             // 
             // btnEliminar
@@ -189,7 +189,7 @@
             this.lblID.AutoSize = true;
             this.lblID.Location = new System.Drawing.Point(42, 193);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(168, 28);
+            this.lblID.Size = new System.Drawing.Size(139, 21);
             this.lblID.TabIndex = 1;
             this.lblID.Text = "Seleccione Tarea:";
             // 
@@ -198,7 +198,7 @@
             this.lblTarea.AutoSize = true;
             this.lblTarea.Location = new System.Drawing.Point(42, 61);
             this.lblTarea.Name = "lblTarea";
-            this.lblTarea.Size = new System.Drawing.Size(65, 28);
+            this.lblTarea.Size = new System.Drawing.Size(54, 21);
             this.lblTarea.TabIndex = 1;
             this.lblTarea.Text = "Tarea:";
             // 
@@ -212,14 +212,14 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.BurlyWood;
+            this.tabPage2.BackColor = System.Drawing.Color.Bisque;
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox6);
-            this.tabPage2.Location = new System.Drawing.Point(4, 37);
+            this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage2.Size = new System.Drawing.Size(1092, 708);
+            this.tabPage2.Size = new System.Drawing.Size(1092, 715);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lugares";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
@@ -280,7 +280,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(42, 193);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 28);
+            this.label1.Size = new System.Drawing.Size(140, 21);
             this.label1.TabIndex = 7;
             this.label1.Text = "Seleccione Lugar:";
             // 
@@ -298,10 +298,10 @@
             // cmbLugar
             // 
             this.cmbLugar.FormattingEnabled = true;
-            this.cmbLugar.ItemHeight = 28;
+            this.cmbLugar.ItemHeight = 21;
             this.cmbLugar.Location = new System.Drawing.Point(268, 190);
             this.cmbLugar.Name = "cmbLugar";
-            this.cmbLugar.Size = new System.Drawing.Size(199, 36);
+            this.cmbLugar.Size = new System.Drawing.Size(199, 29);
             this.cmbLugar.TabIndex = 6;
             // 
             // btnModificarLugar
@@ -331,7 +331,7 @@
             this.lblLugar.AutoSize = true;
             this.lblLugar.Location = new System.Drawing.Point(42, 61);
             this.lblLugar.Name = "lblLugar";
-            this.lblLugar.Size = new System.Drawing.Size(67, 28);
+            this.lblLugar.Size = new System.Drawing.Size(55, 21);
             this.lblLugar.TabIndex = 1;
             this.lblLugar.Text = "Lugar:";
             // 
@@ -345,8 +345,9 @@
             // 
             // frmTareasCRUD
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(1100, 749);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

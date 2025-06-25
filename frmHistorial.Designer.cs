@@ -39,6 +39,7 @@
             // Auditoría
             // 
             this.Auditoría.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Auditoría.BackColor = System.Drawing.Color.SandyBrown;
             this.Auditoría.Controls.Add(this.btnMostrar);
             this.Auditoría.Controls.Add(this.dgvHistorial);
             this.Auditoría.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -62,7 +63,7 @@
             // 
             // dgvHistorial
             // 
-            this.dgvHistorial.BackgroundColor = System.Drawing.Color.Linen;
+            this.dgvHistorial.BackgroundColor = System.Drawing.Color.Bisque;
             this.dgvHistorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHistorial.Location = new System.Drawing.Point(91, 81);
             this.dgvHistorial.Name = "dgvHistorial";
@@ -73,10 +74,10 @@
             // 
             // frmHistorial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(1343, 763);
+            this.BackColor = System.Drawing.Color.Bisque;
+            this.ClientSize = new System.Drawing.Size(1343, 749);
             this.Controls.Add(this.Auditoría);
             this.Font = new System.Drawing.Font("Malgun Gothic", 12F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

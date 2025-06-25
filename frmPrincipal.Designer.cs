@@ -48,7 +48,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Linen;
+            this.menuStrip1.BackColor = System.Drawing.Color.SandyBrown;
             this.menuStrip1.Font = new System.Drawing.Font("Malgun Gothic", 12F);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -56,8 +56,8 @@
             this.administraciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(901, 36);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(676, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,27 +68,30 @@
             this.administrarTareasToolStripMenuItem,
             this.historialDeTareasToolStripMenuItem});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(84, 32);
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(69, 25);
             this.tareasToolStripMenuItem.Text = "Tareas";
             // 
             // verTareasToolStripMenuItem
             // 
+            this.verTareasToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.verTareasToolStripMenuItem.Name = "verTareasToolStripMenuItem";
-            this.verTareasToolStripMenuItem.Size = new System.Drawing.Size(268, 32);
+            this.verTareasToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.verTareasToolStripMenuItem.Text = "Ver Tareas";
             this.verTareasToolStripMenuItem.Click += new System.EventHandler(this.verTareasToolStripMenuItem_Click);
             // 
             // administrarTareasToolStripMenuItem
             // 
+            this.administrarTareasToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.administrarTareasToolStripMenuItem.Name = "administrarTareasToolStripMenuItem";
-            this.administrarTareasToolStripMenuItem.Size = new System.Drawing.Size(268, 32);
+            this.administrarTareasToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.administrarTareasToolStripMenuItem.Text = "Administrar Tareas";
             this.administrarTareasToolStripMenuItem.Click += new System.EventHandler(this.administrarTareasToolStripMenuItem_Click);
             // 
             // historialDeTareasToolStripMenuItem
             // 
+            this.historialDeTareasToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.historialDeTareasToolStripMenuItem.Name = "historialDeTareasToolStripMenuItem";
-            this.historialDeTareasToolStripMenuItem.Size = new System.Drawing.Size(268, 32);
+            this.historialDeTareasToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.historialDeTareasToolStripMenuItem.Text = "Historial de Tareas";
             this.historialDeTareasToolStripMenuItem.Click += new System.EventHandler(this.historialDeTareasToolStripMenuItem_Click);
             // 
@@ -98,14 +101,14 @@
             this.usuariosToolStripMenuItem,
             this.auditoríaToolStripMenuItem});
             this.administraciónToolStripMenuItem.Name = "administraciónToolStripMenuItem";
-            this.administraciónToolStripMenuItem.Size = new System.Drawing.Size(162, 32);
+            this.administraciónToolStripMenuItem.Size = new System.Drawing.Size(132, 25);
             this.administraciónToolStripMenuItem.Text = "Administración";
             // 
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(181, 32);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
@@ -113,7 +116,7 @@
             // 
             this.auditoríaToolStripMenuItem.BackColor = System.Drawing.Color.Linen;
             this.auditoríaToolStripMenuItem.Name = "auditoríaToolStripMenuItem";
-            this.auditoríaToolStripMenuItem.Size = new System.Drawing.Size(181, 32);
+            this.auditoríaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.auditoríaToolStripMenuItem.Text = "Auditoría";
             this.auditoríaToolStripMenuItem.Click += new System.EventHandler(this.auditoríaToolStripMenuItem_Click);
             // 
@@ -124,47 +127,45 @@
             // 
             // lblUsuario
             // 
-            this.lblUsuario.BackColor = System.Drawing.SystemColors.Control;
             this.lblUsuario.Font = new System.Drawing.Font("Malgun Gothic", 12F);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(85, 28);
+            this.lblUsuario.Size = new System.Drawing.Size(69, 21);
             this.lblUsuario.Text = "Usuario:";
             this.lblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFecha
             // 
-            this.lblFecha.BackColor = System.Drawing.SystemColors.Control;
             this.lblFecha.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(68, 28);
+            this.lblFecha.Size = new System.Drawing.Size(56, 21);
             this.lblFecha.Text = "Fecha:";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // statusStrip1
             // 
-            this.statusStrip1.BackColor = System.Drawing.Color.Linen;
+            this.statusStrip1.BackColor = System.Drawing.Color.SandyBrown;
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblUsuario,
             this.lblFecha});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 508);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 414);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(901, 34);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(676, 26);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(901, 542);
+            this.BackColor = System.Drawing.Color.Bisque;
+            this.ClientSize = new System.Drawing.Size(676, 440);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmPrincipal";
             this.Text = "Principal - RRHH";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

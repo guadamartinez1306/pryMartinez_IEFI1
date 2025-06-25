@@ -38,21 +38,23 @@
             // 
             // dgvAuditoría
             // 
-            this.dgvAuditoría.BackgroundColor = System.Drawing.Color.Linen;
+            this.dgvAuditoría.BackgroundColor = System.Drawing.Color.Bisque;
             this.dgvAuditoría.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAuditoría.Location = new System.Drawing.Point(91, 81);
+            this.dgvAuditoría.Location = new System.Drawing.Point(68, 66);
+            this.dgvAuditoría.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvAuditoría.Name = "dgvAuditoría";
             this.dgvAuditoría.RowHeadersWidth = 51;
             this.dgvAuditoría.RowTemplate.Height = 24;
-            this.dgvAuditoría.Size = new System.Drawing.Size(958, 399);
+            this.dgvAuditoría.Size = new System.Drawing.Size(718, 324);
             this.dgvAuditoría.TabIndex = 0;
             // 
             // btnMostrar
             // 
             this.btnMostrar.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnMostrar.Location = new System.Drawing.Point(894, 497);
+            this.btnMostrar.Location = new System.Drawing.Point(670, 404);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(155, 49);
+            this.btnMostrar.Size = new System.Drawing.Size(116, 40);
             this.btnMostrar.TabIndex = 1;
             this.btnMostrar.Text = "MOSTRAR";
             this.btnMostrar.UseVisualStyleBackColor = false;
@@ -61,24 +63,28 @@
             // Auditoría
             // 
             this.Auditoría.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Auditoría.BackColor = System.Drawing.Color.SandyBrown;
             this.Auditoría.Controls.Add(this.btnMostrar);
             this.Auditoría.Controls.Add(this.dgvAuditoría);
             this.Auditoría.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Auditoría.Location = new System.Drawing.Point(101, 101);
+            this.Auditoría.Location = new System.Drawing.Point(76, 82);
+            this.Auditoría.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Auditoría.Name = "Auditoría";
-            this.Auditoría.Size = new System.Drawing.Size(1141, 561);
+            this.Auditoría.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Auditoría.Size = new System.Drawing.Size(856, 456);
             this.Auditoría.TabIndex = 2;
             this.Auditoría.TabStop = false;
             this.Auditoría.Text = "Auditoría";
             // 
             // frmAuditoria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(1343, 763);
+            this.BackColor = System.Drawing.Color.Bisque;
+            this.ClientSize = new System.Drawing.Size(1007, 609);
             this.Controls.Add(this.Auditoría);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmAuditoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auditoría";
